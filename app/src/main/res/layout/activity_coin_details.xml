@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/coin_tag_id"
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="62dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/available_balance"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/balance_available"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coin_tag_id" />
+
+    <TextView
+        android:id="@+id/set_available_id"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toEndOf="@+id/available_balance"
+        app:layout_constraintTop_toBottomOf="@+id/coin_tag_id" />
+
+    <TextView
+        android:id="@+id/balance_id"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="69dp"
+        android:text="@string/balance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/available_balance" />
+
+    <TextView
+        android:id="@+id/set_balance_id"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toEndOf="@+id/balance_id"
+        app:layout_constraintTop_toBottomOf="@+id/set_available_id" />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_balance_id" />
+</android.support.constraint.ConstraintLayout>

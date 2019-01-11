@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mobileDev</string>
+    <string name="action_settings">Setting keys</string>
+    <string name="switch_sec">switch</string>
+    <string name="favorit_markten">Favorit markten</string>
+    <string name="alle_markten">Alle markten</string>
+    <string name="voeg_favorit_marktnaam">voeg favorit marktnaam</string>
+    <string name="save_keys">save keys</string>
+    <string name="binance_private">binance private</string>
+    <string name="public_key">public key:</string>
+    <string name="private_key">private key:</string>
+    <string name="login_in_binance">Binance prive beschikbaar</string>
+    <string name="hint">hint</string>
+    <string name="hint2">hint</string>
+    <string name="wachtwoord">wachtwoord:</string>
+    <string name="login">Login</string>
+    <string name="balance_string">Balance data</string>
+    <string name="show_0_balance">show 0 balance</string>
+    <string name="balance_available">balance available</string>
+    <string name="balance">balance</string>
+    <string name="back">Back</string>
+</resources>
